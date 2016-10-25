@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MerchantInformationHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="462" height="74"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6U0-QI-tsv">
+                    <rect key="frame" x="15" y="35" width="100" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="5hW-Qk-KQJ"/>
+                        <constraint firstAttribute="width" constant="100" id="k5S-ay-3CO"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="商家名称：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mzz-dL-dyf">
+                    <rect key="frame" x="15" y="12" width="75" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="必迈运动" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7a-zt-QcS">
+                    <rect key="frame" x="90" y="12" width="60" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="联系电话：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3TY-pJ-d4k">
+                    <rect key="frame" x="15" y="43" width="75" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="400-900-258" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8n-3x-fE9">
+                    <rect key="frame" x="90" y="41" width="97" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUf-XE-AqP">
+                    <rect key="frame" x="407" y="24" width="20" height="22"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="NhK-nF-55b"/>
+                        <constraint firstAttribute="width" constant="30" id="QON-Ed-1wo"/>
+                    </constraints>
+                    <state key="normal" image="details_icon_call_n.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="phone:" destination="iN0-l3-epB" eventType="touchUpInside" id="DPi-ao-HAh"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YyL-BJ-3H4">
+                    <rect key="frame" x="376" y="10" width="1" height="54"/>
+                    <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="2qV-pD-n4n"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wp2-vs-1zf">
+                    <rect key="frame" x="0.0" y="72" width="462" height="1"/>
+                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="MLh-C1-TLk"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3TY-pJ-d4k" firstAttribute="leading" secondItem="Mzz-dL-dyf" secondAttribute="leading" id="185-Nz-Tiz"/>
+                <constraint firstItem="Y8n-3x-fE9" firstAttribute="leading" secondItem="a7a-zt-QcS" secondAttribute="leading" id="6MA-oV-EZp"/>
+                <constraint firstItem="rUf-XE-AqP" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="8qO-QC-zb0"/>
+                <constraint firstItem="Mzz-dL-dyf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="C6r-Vx-R0V"/>
+                <constraint firstItem="YyL-BJ-3H4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="CQV-CD-biA"/>
+                <constraint firstItem="a7a-zt-QcS" firstAttribute="leading" secondItem="Mzz-dL-dyf" secondAttribute="trailing" id="CpO-dp-g39"/>
+                <constraint firstItem="6U0-QI-tsv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="Dbg-bN-0dA"/>
+                <constraint firstItem="6U0-QI-tsv" firstAttribute="top" secondItem="Mzz-dL-dyf" secondAttribute="bottom" constant="5" id="FdF-XB-lzu"/>
+                <constraint firstItem="a7a-zt-QcS" firstAttribute="centerY" secondItem="Mzz-dL-dyf" secondAttribute="centerY" id="Q8Q-uB-0uS"/>
+                <constraint firstAttribute="bottomMargin" secondItem="wp2-vs-1zf" secondAttribute="bottom" constant="-7" id="Wcx-qW-HBd"/>
+                <constraint firstItem="3TY-pJ-d4k" firstAttribute="top" secondItem="6U0-QI-tsv" secondAttribute="bottom" constant="5" id="Z8z-1W-fv5"/>
+                <constraint firstAttribute="trailingMargin" secondItem="wp2-vs-1zf" secondAttribute="trailing" constant="-8" id="ajR-Wx-nst"/>
+                <constraint firstItem="wp2-vs-1zf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="-8" id="aq6-EY-1Le"/>
+                <constraint firstItem="YyL-BJ-3H4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="bYp-Tc-dzk"/>
+                <constraint firstItem="rUf-XE-AqP" firstAttribute="leading" secondItem="YyL-BJ-3H4" secondAttribute="trailing" constant="25" id="fYc-dz-7JO"/>
+                <constraint firstItem="6U0-QI-tsv" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jzg-hz-baj"/>
+                <constraint firstAttribute="trailing" secondItem="rUf-XE-AqP" secondAttribute="trailing" constant="30" id="rPk-yA-FOk"/>
+                <constraint firstItem="Y8n-3x-fE9" firstAttribute="centerY" secondItem="3TY-pJ-d4k" secondAttribute="centerY" id="tJC-2l-O0E"/>
+                <constraint firstAttribute="bottom" secondItem="YyL-BJ-3H4" secondAttribute="bottom" constant="10" id="zkN-ZV-dyA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="brand_name" destination="a7a-zt-QcS" id="AFW-Rg-1CA"/>
+                <outlet property="brand_tel" destination="Y8n-3x-fE9" id="Kig-la-vHb"/>
+            </connections>
+            <point key="canvasLocation" x="285" y="81"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="details_icon_call_n.png" width="20" height="20"/>
+    </resources>
+</document>

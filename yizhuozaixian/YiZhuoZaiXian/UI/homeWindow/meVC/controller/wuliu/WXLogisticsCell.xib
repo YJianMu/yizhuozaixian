@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LogisticsCell" rowHeight="107" id="KGk-i7-Jjw" customClass="WXLogisticsCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="109"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[正在配送深圳市东亭路]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boC-Rt-813">
+                        <rect key="frame" x="44" y="8" width="268" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Vcz-sq-9xG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.36470588235294116" green="0.62745098039215685" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="物品正运往深圳市东亭路转站,感谢您使用顺丰快递,祝您生活愉快!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ti2-wn-ZjC">
+                        <rect key="frame" x="44" y="32" width="268" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="37" id="wt8-0E-wT9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015/12/12  14:20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BL7-hQ-GN7">
+                        <rect key="frame" x="44" y="77" width="268" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="4Zl-kJ-5Od"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q0E-Sx-mkY">
+                        <rect key="frame" x="21" y="16" width="3" height="94"/>
+                        <color key="backgroundColor" red="0.1803921568627451" green="0.62352941176470589" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="3" id="y9b-dC-bOi"/>
+                        </constraints>
+                    </view>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="logistics.png" translatesAutoresizingMaskIntoConstraints="NO" id="Khg-Kz-3CD">
+                        <rect key="frame" x="14" y="0.0" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="1Rb-fE-b4S"/>
+                            <constraint firstAttribute="height" constant="16" id="NbH-KB-bgC"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Ti2-wn-ZjC" secondAttribute="trailing" constant="8" id="2mT-nR-3Py"/>
+                    <constraint firstItem="boC-Rt-813" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="3AX-KX-S8y"/>
+                    <constraint firstAttribute="trailing" secondItem="boC-Rt-813" secondAttribute="trailing" constant="8" id="4t5-x4-JoA"/>
+                    <constraint firstItem="Khg-Kz-3CD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6bG-mE-i0U"/>
+                    <constraint firstItem="q0E-Sx-mkY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="a5l-n6-v9u"/>
+                    <constraint firstItem="Ti2-wn-ZjC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="44" id="aBh-DH-zoJ"/>
+                    <constraint firstItem="boC-Rt-813" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="44" id="ann-kK-bKG"/>
+                    <constraint firstItem="BL7-hQ-GN7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="44" id="cIY-vw-Idk"/>
+                    <constraint firstAttribute="bottom" secondItem="q0E-Sx-mkY" secondAttribute="bottom" id="cVn-PL-wJL"/>
+                    <constraint firstAttribute="trailing" secondItem="BL7-hQ-GN7" secondAttribute="trailing" constant="8" id="fN2-Xl-3BH"/>
+                    <constraint firstItem="Khg-Kz-3CD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="hUF-r4-5qQ"/>
+                    <constraint firstItem="Ti2-wn-ZjC" firstAttribute="top" secondItem="boC-Rt-813" secondAttribute="bottom" constant="3" id="mIt-HS-Tn1"/>
+                    <constraint firstItem="BL7-hQ-GN7" firstAttribute="top" secondItem="Ti2-wn-ZjC" secondAttribute="bottom" constant="8" id="nXm-EM-KHM"/>
+                    <constraint firstItem="q0E-Sx-mkY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="sa3-ex-vva"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLb" destination="BL7-hQ-GN7" id="XvV-yd-hgM"/>
+                <outlet property="descriptionLb" destination="Ti2-wn-ZjC" id="OZw-Fn-r4q"/>
+                <outlet property="iconImg" destination="Khg-Kz-3CD" id="OIF-W9-FWs"/>
+                <outlet property="lineView" destination="q0E-Sx-mkY" id="b0W-03-4cN"/>
+                <outlet property="siteLb" destination="boC-Rt-813" id="YY9-Z3-c3J"/>
+            </connections>
+            <point key="canvasLocation" x="358" y="423"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="logistics.png" width="24" height="24"/>
+    </resources>
+</document>

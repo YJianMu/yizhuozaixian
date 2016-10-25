@@ -1,0 +1,21 @@
+
+#ifndef PartnerConfig_h
+#define PartnerConfig_h
+
+//合作身份者id，以2088开头的16位纯数字
+#define PartnerID @"2088221445010153"
+
+//收款支付宝账号
+#define SellerID  @"wyoupin@163.com"
+
+//商户私钥，自助生成
+#define PartnerPrivKey @"MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAK/8pYrnIagPJOWm6kDddQXVHDRYDwHCDwMnD6SQFJQ9xgqK6A8PvS4zzWQEj6XFrQq0jx1KV5aJDfvsn10wX0xGFtHMYLWhEBMeVVbMbjK+ajagnbHMUrPc+xmH6wKtQJAPSFByZa7UojPdCnBxReWBLRjwaLbmPYd3r5G9eEk1AgMBAAECgYBM66vbo5y1XTEuY59+DI3Kp9Q1GMwuY4i2Qwt2TTeBd+Ko1wAJHUL9/8xlTA0RUu6IgFURY14XQP5ov4sEa1ErRgcYjpVv8dNrr/4HO5l0jfrjktf1mcTN8GDYOaLYoirW7bPsKa17Aq+tZ9U4LPC/6TRrvBXs/ezT/9VOAy8EwQJBAOngQ0WsyHQjQZNgED8fVONHU4TnGCeBPeIo8SiYQyq49vPawktFwHjC8or4DvTwYphbIErCC6bYbAlHgsl4kgUCQQDAon4RLnc5CAuBIUU2+sSoo2n4Q7F/wwe9iryh9zjUURctJr1jbP9dTgc+VVYt0He/YF1l7KdezRb09YOxT5FxAkBI0xs/e+DjQQMvV89XSHNPXitki+0aiAT0AlmtkVQA3p2PK0Qq2ipnsBSEL1/A54Vb+awhezDToDpr3UedYpzdAkBznNJ2s2GAjBCDhplI3wZKhBEknFQabs3ldy+xMXQdETIMujRuSMuWjy8PvR3Ez1ofNNG5S2hEIGjHydYpA60xAkAiKOdmCgcdaKzDLTUKkakuwli4FjSO7+Qh+IBC4gI5iQyZEmn475110k2HJScMz/xY6lTGpFZBsrFN22cTFncB"
+
+
+//支付宝公钥
+#define AlipayPubKey   @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7YU6Zdm2lgh0w7+aPKtyXCu2vovUWuushH6MAAPHcreXlBGsxM6NjHzL6czMbz30AAnOOW5px+mzReFXW4zJ/0u3cSNQbMNhP51uHxmIO/xmefk74FPB5KHXoKxxd/rLBGyU0T/Pxy/IDLLr/Kd6oQWqJFUrfFAcxZk+H412YRwIDAQAB"
+
+//安全校验码（MD5）密钥，以数字和字母组成的32位字符
+//#define MD5_KEY @"1g81z5tgu3o2yst4mqm6n838dxe5cw1a"
+
+#endif

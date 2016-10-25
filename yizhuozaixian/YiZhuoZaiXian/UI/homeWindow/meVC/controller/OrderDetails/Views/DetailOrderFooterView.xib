@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="nWs-Oa-zAk" customClass="DetailOrderFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="425" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="备注留言：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTZ-Gu-Tst">
+                    <rect key="frame" x="15" y="8" width="80" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Gu3-L7-xRw"/>
+                        <constraint firstAttribute="height" constant="32" id="vs9-n9-s2i"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="去司法部雕塑部分 iu 比 u 还是多粉红丝带和佛 is 的红 if 后 is 地方 i sadnas" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0f-2L-MGY">
+                    <rect key="frame" x="95" y="8" width="315" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="79v-lT-6lt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottomMargin" secondItem="RTZ-Gu-Tst" secondAttribute="bottom" constant="10" id="33m-oT-Frz"/>
+                <constraint firstItem="o0f-2L-MGY" firstAttribute="leading" secondItem="RTZ-Gu-Tst" secondAttribute="trailing" id="Nhu-Ql-Gjv"/>
+                <constraint firstItem="RTZ-Gu-Tst" firstAttribute="top" secondItem="nWs-Oa-zAk" secondAttribute="topMargin" id="bAj-pS-NFW"/>
+                <constraint firstItem="RTZ-Gu-Tst" firstAttribute="leading" secondItem="nWs-Oa-zAk" secondAttribute="leadingMargin" constant="7" id="m3k-tE-5Od"/>
+                <constraint firstAttribute="trailingMargin" secondItem="o0f-2L-MGY" secondAttribute="trailing" constant="7" id="txd-jh-rIy"/>
+                <constraint firstItem="o0f-2L-MGY" firstAttribute="top" secondItem="nWs-Oa-zAk" secondAttribute="topMargin" id="vKq-x9-26y"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="33m-oT-Frz"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="leave_message" destination="o0f-2L-MGY" id="uwD-MD-WEz"/>
+            </connections>
+            <point key="canvasLocation" x="374.5" y="334"/>
+        </view>
+    </objects>
+</document>

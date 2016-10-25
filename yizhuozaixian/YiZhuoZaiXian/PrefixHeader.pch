@@ -1,0 +1,181 @@
+//
+//  PrefixHeader.pch
+//  YiZhuoZaiXian
+//
+//  Created by Mac on 16/3/10.
+//  Copyright (c) 2016年 xincedong. All rights reserved.
+//
+
+#ifndef YiZhuoZaiXian_PrefixHeader_pch
+#define YiZhuoZaiXian_PrefixHeader_pch
+
+//屏幕宽高
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//父视图的宽高
+#define SuperWidth self.bounds.size.width
+#define SuperHeight self.bounds.size.height
+
+
+#define UmengAppkey @"570ef59e67e58ec6c70005b2"
+
+
+//工具类
+#import "MyViewCreateControl.h"
+#import "ZCtextField.h"
+#import "XCDLoadingView.h"
+#import "UserData.h"
+#import "NSString+Hash.h"
+
+
+
+//第三方库
+#import "ICSDrawerController.h"
+#import "ColorEx.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "JHRefresh.h"
+#import "EGOCache.h"
+#import "ZJModelTool.h"
+#import "MJExtension.h"
+
+
+
+
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+
+//微信支付
+#import "WXApi.h"
+
+//shareSDK 短信验证
+#import <SMS_SDK/SMSSDK.h>
+
+#import "SVProgressHUD.h"
+#import <ShareSDKUI/ShareSDK+SSUI.h>
+
+#import "MBProgressHUD.h"
+
+
+
+
+
+//URL  外网  120.25.144.162     内网 192.168.1.111
+//官网
+#define websiteURLstring @"http://120.25.144.162"
+
+//首页数据URL
+#define homeURLstring @"http://120.25.144.162/api/index?format=json"
+
+//首页滚动视图（广告）
+#define homeAdURLstring @"http://120.25.144.162/api/ad?format=json"
+
+//抽屉导航URL
+#define drawerURLstring @"http://120.25.144.162/api/category?format=json"
+
+//分类页面（二级页面）
+#define classifitionURLstring @"http://120.25.144.162/api/goods?format=json"
+
+//商品详情页面（三级页面）- 静态网页
+#define goodsDetailsWebURLstrng @"http://120.25.144.162/api/detail?goods_id="
+
+//商品详情页面（三级页面）- 商品属性接口
+#define goodsDetailsURLstring @"http://120.25.144.162/api/attribute?format=json&goods_id="
+
+//购物车加载数据URL
+#define shoppingCarURLstring @"http://120.25.144.162/api/shopInfo"
+
+//购物车数据修改接口
+#define shoppingCarChangeURLsting @"http://120.25.144.162/api/modInfo"
+
+//删除购物车某商品数据接口
+#define deleteShoppingCarGoodsURLsting @"http://120.25.144.162/api/delInfo"
+
+//添加商品数据到购物车接口
+#define addGoodsToShoppingCarURLstring @"http://120.25.144.162/api/cart"
+
+//立即购买上传订单
+#define nowBuyURLstring @"http://120.25.144.162/api/buyNow"
+
+//获取订单地址
+#define getOrderAddressURLstring @"http://120.25.144.162/api/affirmAddr"
+
+//从购物车-上传订单（生成订单号）
+#define setOrderURLstring @"http://120.25.144.162/api/order"
+
+//用订单号请求地址信息和价格（在线支付界面）
+#define setAddressURLstring @"http://120.25.144.162/api/orderPay"
+
+//支付宝支付接口
+#define aliPayURLstring @"http://120.25.144.162/api/alipay"
+
+//微信支付接口
+#define wxPayURLstring @"http://120.25.144.162/api/WXPay"
+
+
+//登录URL
+#define LoginURLstring @"http://120.25.144.162/api/login"
+
+//注册URL
+#define RegisterURLstring @"http://120.25.144.162/api/register"
+
+//获取用户信息
+#define UserDataURLString @"http://120.25.144.162/api/user"
+
+//修改昵称
+#define ChangeDataURLString @"http://120.25.144.162/api/mUser"
+
+//订单信息
+#define OrderListData @"http://120.25.144.162/api/orderList"
+
+//取消订单
+#define cancelorderUrl @"http://120.25.144.162/api/delOrder"
+
+//订单详情
+#define DetailOrderData @"http://120.25.144.162/api/orderDet"
+
+//获取地址信息
+#define AddressData @"http://120.25.144.162/api/address"
+
+//修改地址
+#define changeAddressUrl @"http://120.25.144.162/api/modAddr"
+
+//删除地址
+#define delAddre @"http://120.25.144.162/api/delAddre"
+
+//修改密码
+#define changepassword @"http://120.25.144.162/api/repassword"
+
+//用户签到接口
+#define qiandaoUrl @"http://120.25.144.162/api/signIn"
+
+//会员接口
+#define VIPUrl @"http://120.25.144.162/api/members"
+
+//注销用户接口
+#define canceluidurl @"http://120.25.144.162/api/cancel"
+
+//退款申请接口
+#define refundUrl @"http://120.25.144.162/api/refund"
+
+//意见反馈接口
+#define suggestionURL @"http://120.25.144.162/api/proposal"
+
+//确认收货接口
+#define sureorderURL @"http://120.25.144.162/api/receipt"
+
+//申请退款信息接口
+#define refundorderinfoURL @"http://120.25.144.162/api/refInfo"
+
+//忘记密码接口
+#define forgotpasswordURL @"http://120.25.144.162/api/lostpwd"
+
+
+
+
+
+#endif

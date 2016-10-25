@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VIPShowViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VbM-Mx-vXC">
+                    <rect key="frame" x="8" y="8" width="584" height="936"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">会员权益说明：
+
+1.会员等级说明：
+  会员分为V0、V1、V2、V3、V4、V5六个会员等级，注册成功即可成为客户端的V0级别会员。
+拥有的积分越多，会员等级越高，可以享受的优惠价格级次越高，各会员等级所需积分如下：
+V0:0积分-500积分
+V1:500积分-2000积分
+V2:2000积分-5000积分
+V3:5000积分-10000积分
+V4:10000积分-20000积分
+V5:20000积分以上
+
+2.如何获得积分？
+消费额度直接兑换成个人积分，另每日签到一次即可赠得2个积分，连续签到7日额外获赠10个积分。
+即：积分=消费额度+签到积分
+
+3.会员特权说明：
+ 会员可以在会员中心购买专属于对应会员等级的优惠的商品。享受专属于会员的优惠活动价。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VbM-Mx-vXC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="FiU-7a-fSt"/>
+                <constraint firstItem="VbM-Mx-vXC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" id="Omg-Qw-xq5"/>
+                <constraint firstAttribute="trailingMargin" secondItem="VbM-Mx-vXC" secondAttribute="trailing" id="mcd-FH-VcB"/>
+                <constraint firstAttribute="bottomMargin" secondItem="VbM-Mx-vXC" secondAttribute="bottom" id="ugg-6n-cZ6"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
