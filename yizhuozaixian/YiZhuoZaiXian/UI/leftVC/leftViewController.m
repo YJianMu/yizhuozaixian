@@ -14,6 +14,7 @@
 
 @interface leftViewController ()<UITableViewDataSource,UITableViewDelegate>
 
+
 @property(nonatomic, assign) NSInteger previousRow;
 
 @property(nonatomic,strong)UITableView * myTableView;
